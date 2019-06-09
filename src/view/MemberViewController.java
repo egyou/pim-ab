@@ -41,7 +41,7 @@ public class MemberViewController implements Initializable {
 	@FXML	private TableColumn<Member, String> columnPW;
 	@FXML	private TableColumn<Member, String> columnContact;
 	
-	// Member : model이라고도 하고 DTO, VO 라고도 함
+	// Member : model이라고도 하고 DTO, VO 라고도 함 -> 대규모 프로젝트에서는 엔티니와 도메인으로 
 	// 시스템 밖에 저장된 정보를 객체들간에 사용하는 정보로 변환한 자료구조 또는 객체
 	private final ObservableList<Member> data = FXCollections.observableArrayList();
 	// 목록 : 이중연결리스트는 아니지만 리스트의 특징과 배열 특징을 잘 혼용해 놓은 클래스 ArrayList 
